@@ -24,7 +24,7 @@ local function editMacro(itemNames, itemCount)
     if itemNames ~= nil and itemCount > 0 then
         local macro = "#showtooltip";
         if itemCount > 1 then
-            macro = macro .. "\n/castsequence";
+            macro = macro .. "\n/castsequence reset=combat";
         else
             macro = macro .. "\n/use";
         end
