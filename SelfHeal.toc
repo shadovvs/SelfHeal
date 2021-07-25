@@ -1,0 +1,8 @@
+## Interface: 90100
+## Title: SelfHeal
+## Author: Shadovv
+## Version: 0.0.1
+## Notes: Type /SelfHeal to use health stone or healing potion
+
+# Core files
+SelfHeal.lua
